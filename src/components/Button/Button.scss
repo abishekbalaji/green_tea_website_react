@@ -1,0 +1,33 @@
+.button {
+  min-width: 150px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: #6fbc29;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+  &:hover {
+    background-color: black;
+    color: #6fbc29;
+  }
+
+  &.inverted {
+    background-color: black;
+    color: #6fbc29;
+
+    &:hover {
+      background-color: #6fbc29;
+      color: black;
+    }
+  }
+}

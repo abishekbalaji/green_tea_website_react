@@ -1,0 +1,32 @@
+.header-info-container {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 80px;
+
+  .header-text-section_title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    // font-weight: bold;
+  }
+
+  .header-text-section_sub-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .header-text-section_text {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: justify;
+    // font-family: "Roboto", sans-serif;
+  }
+}
+
+.preview-item-cards {
+    // width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 200px;
+}

@@ -1,0 +1,32 @@
+.products-preview_container {
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+
+  .products-preview_text {
+    text-align: center;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-bottom: 80px;
+        font-weight: 400;
+    }
+  }
+
+  .products-preview_items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 80px;
+    row-gap: 50px;
+  }
+
+  button {
+    margin-top: 20px;
+    height: auto;
+  }
+}

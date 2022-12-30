@@ -3,11 +3,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 0 80px;
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 25px 0;
   }
 
   .nav-links-container {
@@ -23,6 +24,10 @@
 
       &:first-of-type {
         color: #6fbc29;
+      }
+
+      &:last-of-type {
+        padding: 10px 0;
       }
 
       &:hover {
