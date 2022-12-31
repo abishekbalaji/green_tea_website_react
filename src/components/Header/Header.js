@@ -5,9 +5,9 @@ import Carousal from "../Carousal/Carousal";
 
 const Header = () => {
   return (
-    <div className="header-container">
-    <Carousal />
-    <HeaderTextSection />
+    <div id="header" className="header-container">
+      <Carousal />
+      <HeaderTextSection />
     </div>
   );
 };

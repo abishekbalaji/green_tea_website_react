@@ -49,7 +49,7 @@ const products = [
 
 const ProductsPreview = () => {
   return (
-    <div className="products-preview_container">
+    <div id="products" className="products-preview_container">
       <div className="products-preview_text">
         <h1>What we sell</h1>
         <h2>

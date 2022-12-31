@@ -4,7 +4,7 @@ import img from "../../assets/gteaabout.jpg";
 
 const AboutSection = () => {
   return (
-    <div className="about-section_container">
+    <div id="about" className="about-section_container">
       <div
         className="about-section_image"
         style={{

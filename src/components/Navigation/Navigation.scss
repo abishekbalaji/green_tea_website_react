@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-between;
   padding: 0 80px;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: rgba($color: #fff, $alpha: 0.9);
 
   .logo-container {
     height: 100%;
@@ -22,7 +26,7 @@
       padding: 10px 15px;
       cursor: pointer;
 
-      &:first-of-type {
+      &:first-child {
         color: #6fbc29;
       }
 
@@ -33,6 +37,14 @@
       &:hover {
         color: #6fbc29;
       }
+
+      &::selection {
+        color: #6fbc29;
+      }
     }
   }
+}
+
+.active {
+  color: #6fbc29;
 }

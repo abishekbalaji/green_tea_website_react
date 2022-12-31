@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -22,4 +26,11 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: 5000s ease-in-out 0s;
 }

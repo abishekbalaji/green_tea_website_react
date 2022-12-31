@@ -5,7 +5,7 @@ import img from "../../assets/gteacard1.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="testimonial-section-container">
+    <div id='testimonials' className="testimonial-section-container">
       <div className="testimonial-section_carousel">
         <TestimonialCarousal />
       </div>
