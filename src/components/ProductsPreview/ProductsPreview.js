@@ -62,7 +62,7 @@ const ProductsPreview = () => {
           <ItemCard key={idx} {...product} />
         ))}
       </div>
-      <Button inverted>{"More..."}</Button>
+      <Button btnType='inverted'>{"More..."}</Button>
     </div>
   );
 };

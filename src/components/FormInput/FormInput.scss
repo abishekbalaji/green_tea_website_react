@@ -1,7 +1,6 @@
 @mixin shrinkLabel {
   top: -14px;
   font-size: 12px;
-  color: #6fbc29;;
 }
 
 .form-input-group {
@@ -27,10 +26,16 @@
     &:focus ~ .form-input-label {
       @include shrinkLabel();
     }
+
+    &.green {
+      background-color: #D8FFAF;
+      color: black;
+      border-bottom: 1px solid rgb(5, 58, 5)
+    }
   }
 
   .form-input-label {
-    color: #6fbc29;;
+    color: #6fbc29;
     font-size: 16px;
     font-weight: normal;
     position: absolute;
@@ -41,6 +46,10 @@
 
     &.shrink {
       @include shrinkLabel();
+    }
+
+    &.green {
+      color: rgb(6, 83, 6);
     }
   }
 }

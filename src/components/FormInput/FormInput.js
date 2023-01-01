@@ -1,14 +1,14 @@
 import "./FormInput.scss";
 
-const FormInput = ({ label, ...otherProps }) => {
+const FormInput = ({ label, green=false, ...otherProps }) => {
   return (
     <div className="form-input-group">
-      <input {...otherProps} className='form-input' />
+      <input {...otherProps} className={`form-input ${green ? "green" : ""}`} />
       {label && (
         <label
           className={`${
             otherProps.value.length ? "shrink" : ""
-          } form-input-label`}
+          } form-input-label ${green ? "green" : ""}`}
         >
           {label}
         </label>

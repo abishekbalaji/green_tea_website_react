@@ -7,7 +7,7 @@
   position: sticky;
   z-index: 10;
   top: 0;
-  background-color: rgba($color: #fff, $alpha: 0.9);
+  background-color: rgba($color: #fff, $alpha: 0.7);
 
   .logo-container {
     height: 100%;
@@ -25,13 +25,15 @@
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+      color: rgba(0, 0, 0, 0.5);
+      font-weight: bold;
 
       &:first-child {
         color: #6fbc29;
       }
 
-      &:last-of-type {
-        padding: 10px 0;
+      &:last-child {
+        padding: 10px 0 10px 15px;
       }
 
       &:hover {

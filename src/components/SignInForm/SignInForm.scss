@@ -1,0 +1,19 @@
+.signin-form-container {
+  width: 380px;
+  .signin-form-title {
+    color: rgb(6, 83, 6);
+  }
+  .signin-form-subtitle {
+    color: rgb(6, 83, 6);
+  }
+
+  .signin-form-button-container {
+    display: flex;
+
+    justify-content: space-between;
+    button {
+      height: auto;
+      margin-top: 50px;
+    }
+  }
+}
